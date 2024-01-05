@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Floor Component Styling */
+.car-floor {
+  height: 80vh;
+  width: 95%;
+  border: 2px solid #000;
+  margin: auto;
+}
+
+
+/* Parking Slot Component Styling */
+.car-slot {
+  width: 9%;
+  height: 20vh;
+  border: 1px solid #0023;
+  margin: 10px;
+}
+
+.plate-number {
+  width: 90%;
+  height: 24px;
+  border: 1px solid #0023;
+  margin: auto;
+  margin-top: 20%;
+}
+
+.d-flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.car-image {
+  width: 100%;
+}
