@@ -6,6 +6,7 @@ export default function ParkModalForm({showModal, onclose}){
 
     const [plateNumber, setPlateNumber] = useState('');
     const [slotNumber, setSlotNumber] = useState('');
+    
 
     const closeForm = () => {
         setPlateNumber('');
