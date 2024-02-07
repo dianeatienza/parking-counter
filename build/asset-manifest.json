@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/parking-counter/static/css/main.d45e6ccf.css",
+    "main.js": "/parking-counter/static/js/main.42609dcb.js",
+    "static/media/3.png": "/parking-counter/static/media/3.746d5cb476c65ff130e1.png",
+    "static/media/1.png": "/parking-counter/static/media/1.621193842178bb330969.png",
+    "static/media/2.png": "/parking-counter/static/media/2.0c10f497c0a5d14660de.png",
+    "static/media/4.png": "/parking-counter/static/media/4.0e6a94e9f2d50b0f9e1d.png",
+    "static/media/7.png": "/parking-counter/static/media/7.ea76d59df1b2e2e581bd.png",
+    "static/media/8.png": "/parking-counter/static/media/8.2859ec43299fbcbf1f98.png",
+    "static/media/6.png": "/parking-counter/static/media/6.c8621a739a0c9ed1e6af.png",
+    "static/media/9.png": "/parking-counter/static/media/9.1d4b8a819d57c3175d13.png",
+    "static/media/19.png": "/parking-counter/static/media/19.b73bbfeb4f2544141e03.png",
+    "static/media/10.png": "/parking-counter/static/media/10.655a7b5b696af98b12c0.png",
+    "static/media/20.png": "/parking-counter/static/media/20.89aaaed4f9883bbc19d2.png",
+    "static/media/12.png": "/parking-counter/static/media/12.1c6795a51eaec84028fc.png",
+    "static/media/17.png": "/parking-counter/static/media/17.a1dfa84ec8460b88f135.png",
+    "static/media/5.png": "/parking-counter/static/media/5.ff1c42d5ffbc0b91c61a.png",
+    "static/media/18.png": "/parking-counter/static/media/18.6e41372647adea0839db.png",
+    "static/media/11.png": "/parking-counter/static/media/11.99e24015f6fcf20211b6.png",
+    "static/media/16.png": "/parking-counter/static/media/16.edd5d06da3be206654e0.png",
+    "static/media/13.png": "/parking-counter/static/media/13.aba0710aeb51155478ca.png",
+    "static/media/15.png": "/parking-counter/static/media/15.04487cece0b819e46f33.png",
+    "static/media/14.png": "/parking-counter/static/media/14.af5101c808f81f653451.png",
+    "index.html": "/parking-counter/index.html",
+    "main.d45e6ccf.css.map": "/parking-counter/static/css/main.d45e6ccf.css.map",
+    "main.42609dcb.js.map": "/parking-counter/static/js/main.42609dcb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d45e6ccf.css",
+    "static/js/main.42609dcb.js"
+  ]
+}
