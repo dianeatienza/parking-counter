@@ -72,7 +72,7 @@ export default function Floor() {
    
     return (
         <>
-            <h1 className="fw-bold parking-counter">Parking Dashboard</h1>
+            <h1 className="fw-bold parking-counter">Parking Simulator Dashboard</h1>
             <section className="car-floor d-flex">
                 {parkedCars && parkedCars.map((slot) => (
                     <ParkingSlot key={slot.slotNumber} slotData={slot} />

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/parking-counter/static/css/main.d45e6ccf.css",
-    "main.js": "/parking-counter/static/js/main.42609dcb.js",
+    "main.js": "/parking-counter/static/js/main.dfbc7111.js",
     "static/media/3.png": "/parking-counter/static/media/3.746d5cb476c65ff130e1.png",
     "static/media/1.png": "/parking-counter/static/media/1.621193842178bb330969.png",
     "static/media/2.png": "/parking-counter/static/media/2.0c10f497c0a5d14660de.png",
@@ -24,10 +24,10 @@
     "static/media/14.png": "/parking-counter/static/media/14.af5101c808f81f653451.png",
     "index.html": "/parking-counter/index.html",
     "main.d45e6ccf.css.map": "/parking-counter/static/css/main.d45e6ccf.css.map",
-    "main.42609dcb.js.map": "/parking-counter/static/js/main.42609dcb.js.map"
+    "main.dfbc7111.js.map": "/parking-counter/static/js/main.dfbc7111.js.map"
   },
   "entrypoints": [
     "static/css/main.d45e6ccf.css",
-    "static/js/main.42609dcb.js"
+    "static/js/main.dfbc7111.js"
   ]
 }
