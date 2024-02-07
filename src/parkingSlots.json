@@ -2,137 +2,164 @@
     {
         "slotNumber":"A1", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"A2", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"A3", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"A4", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"A5", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"A6", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"A7", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"A8", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"A9", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     },
     {
         "slotNumber":"B1", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"B2", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"B3", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"B4", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"B5", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"B6", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"B7", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"B8", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"B9", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     },
     {
         "slotNumber":"C1", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"C2", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"C3", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"C4", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"C5", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"C6", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"C7", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"C8", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }, 
     {
         "slotNumber":"C9", 
         "plateNumber": null, 
-        "isAvailable": true
+        "isAvailable": true,
+        "randomCarNumber": 1
     }
 
 ]

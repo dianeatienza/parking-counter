@@ -9,7 +9,7 @@ export default function Floor() {
 
     const [isModalVisible, setIsModalVisible] = useState(false);
     const [slotAvailability, setSlotAvailability] = useState(new Array(27).fill(true));
-    const [parkedCars, setParkedCars] = useState([]);
+    const [parkedCars, setParkedCars] = useState(parkingSlots);
     const [showErrorModal, setShowErrorModal] = useState(false);
     const [errorMessage, setErrorMessage] = useState("");
 
@@ -27,11 +27,6 @@ export default function Floor() {
         setErrorMessage("");
     };
 
-    // const handleFormSubmit = (e, plateNumber, slotNumber) => {
-    //     console.log(plateNumber, slotNumber);
-    //     setParkedCars([...parkedCars, {slotNumber, plateNumber}]);
-    //     e.preventDefault();
-    // }
 
     const handleFormSubmit = (e, plateNumber, slotNumber) => {
         console.log('HandleFormSubmit is Working!!! :)');
@@ -46,28 +41,29 @@ export default function Floor() {
         }
 
         // Find the slot in the parkingSlots array
-        const slotData = parkingSlots.find(slot => slot.slotNumber === slotNumber);
+        const slotData = parkedCars.find(slot => (slot.slotNumber === slotNumber && slot.isAvailable));
+
+        const newParkedCar = parkedCars.map(slot => {
+            const randomCarNumber = Math.floor(Math.random() * (20)) + 1;
+            if(slot.slotNumber === slotNumber && slot.isAvailable) {
+                slot.isAvailable = false;
+                slot.plateNumber = plateNumber;
+                slot.randomCarNumber = randomCarNumber;
+            }
+            return slot;
+        });
+        console.log(newParkedCar, newParkedCar)
 
         // Validate slot number
         if (!slotData) {
-            setErrorMessage("Please input a valid slot number.");
+            setErrorMessage("OOPS! The slot is either invalid ir occupied.");
             setShowErrorModal(true);
             return;
         }
 
-        // Check if the slot is already occupied
-        if (!slotAvailability[parkingSlots.indexOf(slotData)]) {
-            setErrorMessage("Sorry, the slot is already occupied. Please choose a different one.");
-            setShowErrorModal(true);
-            return;
-        } else {
-            // Slot number is valid and available, proceed to park the car
-            const randomCarNumber = Math.floor(Math.random() * (20)) + 1;
-            setParkedCars([...parkedCars, { slotNumber, plateNumber, randomCarNumber }]);
-            const updatedSlotAvailability = [...slotAvailability];
-            updatedSlotAvailability[parkingSlots.indexOf(slotData)] = false;
-            setSlotAvailability(updatedSlotAvailability);
-        };
+        setParkedCars(newParkedCar);
+        closeModal();
+
     };
 
     
@@ -82,7 +78,7 @@ export default function Floor() {
         <>
             <h1 className="fw-bold parking-counter">Parking Counter</h1>
             <section className="car-floor d-flex">
-                {parkingSlots.map((slot) => (
+                {parkedCars && parkedCars.map((slot) => (
                     <ParkingSlot key={slot.slotNumber} slotData={slot} />
                 ))}
             </section>
