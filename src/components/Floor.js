@@ -22,14 +22,12 @@ export default function Floor() {
     };
 
     const handleCloseErrorModal = () => {
-        console.log("handle close error modal is working!!");
         setShowErrorModal(false);
         setErrorMessage("");
     };
 
 
     const handleFormSubmit = (e, plateNumber, slotNumber) => {
-        console.log('HandleFormSubmit is Working!!! :)');
         e.preventDefault();
 
         // Validate plate number
@@ -66,8 +64,6 @@ export default function Floor() {
 
     };
 
-    
-
 
     useEffect(()=> {
         console.log(parkedCars);
@@ -76,7 +72,7 @@ export default function Floor() {
    
     return (
         <>
-            <h1 className="fw-bold parking-counter">Parking Counter</h1>
+            <h1 className="fw-bold parking-counter">Parking Dashboard</h1>
             <section className="car-floor d-flex">
                 {parkedCars && parkedCars.map((slot) => (
                     <ParkingSlot key={slot.slotNumber} slotData={slot} />
@@ -89,7 +85,7 @@ export default function Floor() {
             {/* To render ParkModalForm only when modal is visible */}
             {isModalVisible && <ParkModalForm showModal={isModalVisible} onclose={closeModal} onSubmit={handleFormSubmit} />}
 
-            {/* // Render the error modal component conditionally based on showErrorModal state */}
+            {/*  Render the error modal component conditionally based on showErrorModal state */}
              {showErrorModal && <ErrorModal show={true} errorMessage={errorMessage} onClose={() => setShowErrorModal(false)} />}
         </>
     );
