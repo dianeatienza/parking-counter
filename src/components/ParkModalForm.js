@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Button, Form, Modal } from "react-bootstrap";
 
 
-export default function ParkModalForm({showModal, onclose}){
+export default function ParkModalForm({showModal, onclose, onSubmit}){
 
     const [plateNumber, setPlateNumber] = useState('');
     const [slotNumber, setSlotNumber] = useState('');
@@ -15,9 +15,6 @@ export default function ParkModalForm({showModal, onclose}){
         onclose();
     }
 
-    //I don't have yet a handleFormOk function that will be implemented onSubmit
-
-    //Things to do: hide and unhide cars to see the available slots! :)
 
     useEffect(() => {
 
@@ -26,7 +23,7 @@ export default function ParkModalForm({showModal, onclose}){
     return(
         <>
             <Modal show={showModal} onHide={closeForm}>
-                <Form>
+                <Form onSubmit={e => onSubmit(e, plateNumber, slotNumber)}>
                     <Modal.Header>
                         <Modal.Title>Car and Slot Form</Modal.Title>
                     </Modal.Header>

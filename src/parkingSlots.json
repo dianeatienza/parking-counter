@@ -1,0 +1,138 @@
+[
+    {
+        "slotNumber":"A1", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"A2", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"A3", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"A4", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"A5", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"A6", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"A7", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"A8", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"A9", 
+        "plateNumber": null, 
+        "isAvailable": true
+    },
+    {
+        "slotNumber":"B1", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"B2", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"B3", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"B4", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"B5", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"B6", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"B7", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"B8", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"B9", 
+        "plateNumber": null, 
+        "isAvailable": true
+    },
+    {
+        "slotNumber":"C1", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"C2", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"C3", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"C4", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"C5", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"C6", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"C7", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"C8", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }, 
+    {
+        "slotNumber":"C9", 
+        "plateNumber": null, 
+        "isAvailable": true
+    }
+
+]
